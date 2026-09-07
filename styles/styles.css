@@ -5,7 +5,7 @@ nav {
 
 nav a {
     color: red;
-    display: block;
+    display: inline;
     padding: 20px;
     font-size: 18px;
 }
@@ -35,8 +35,8 @@ aside {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
-    background-color: black;
-    color: red;
+    background-color: #7BCCB5;
+    color: #EB5406;
     text-align: center;
 }
 
