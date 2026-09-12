@@ -1,3 +1,7 @@
+root {
+    --text-align: center;
+}
+
 nav {
     background-color: black;
     padding: 10px;
@@ -37,7 +41,7 @@ aside {
     padding: 1rem;
     background-color: #7BCCB5;
     color: #EB5406;
-    text-align: center;
+    text-align: var(--text-align);
 }
 
 aside img {
@@ -48,5 +52,5 @@ aside img {
 footer {
     margin-top: 20px;
     border-top: 1px solid #000;
-    text-align: center;
+    text-align: var(--text-align);
 }
