@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #4169E1;
+    --secondary-color: #B87333;
+    --accent1-color: #800517;
+    --accent2-color: #4E8975;
+    --heading-font: "Times New Roma", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+    font: var(--heading-font);
+}
