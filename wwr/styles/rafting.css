@@ -1,14 +1,54 @@
 :root {
-    --primary-color: #4169E1;
-    --secondary-color: #B87333;
-    --accent1-color: #800517;
-    --accent2-color: #4E8975;
+    --primary-color: #4e8975;
+    --secondary-color: #800517;
+    --accent1-color: #4169E1;
+    --accent2-color: #B87333;
     --heading-font: "Times New Roma", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
 header {
-    background-color: var(--accent2-color);
-    color: var(--accent1-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     font: var(--heading-font);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
 }
