@@ -11,6 +11,24 @@ header {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     font: var(--heading-font);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-content: space-around, center;
+    align-items: center;
+}
+
+header img {
+    height: 110px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+header nav a {
+    text-decoration: none;
 }
 
 * {
