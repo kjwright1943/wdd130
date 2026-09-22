@@ -13,7 +13,7 @@ header {
     font: var(--heading-font);
     display: grid;
     grid-template-columns: auto 1fr;
-    justify-content: space-around, center;
+    justify-content: space-around;
     align-items: center;
 }
 
