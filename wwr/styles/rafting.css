@@ -127,8 +127,6 @@ h1 {
 .adventures-grid {
     background-color: var(--primary-color);
     display: flex;
-    grid-template-columns: repeat(5. 1fr);
-    /* gap: 10px; */
     text-align: center;
     justify-content: space-between;
 }
