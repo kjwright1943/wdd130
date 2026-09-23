@@ -124,20 +124,20 @@ h1 {
     width: 100px;
 }
 
-.adventures-grid {
+adventures-grid {
     background-color: var(--primary-color);
     display: flex;
     text-align: center;
     justify-content: space-between;
 }
 
-.adventures-grid img {
+adventures-grid img {
     width: 100%;
     height: 100px;
     object-fit: cover;
 }
 
-.adventures-grid figcaption {
+adventures-grid figcaption {
     padding: 5px;
     font-size: 0.8rem;
     color: var(--secondary-color);
