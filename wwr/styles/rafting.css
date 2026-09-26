@@ -54,10 +54,8 @@ h2 {
     font-family: var(--heading-font);
 }
 
-.history,
-.trips {
-    background-color: var(--accent2-color);
-    color: var(--accent1-color);
+h2 {
+    color: var(--accent1-color)
 }
 
 nav,
