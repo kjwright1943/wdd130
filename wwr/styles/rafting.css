@@ -281,7 +281,7 @@ h1 {
     font-size: 1.6rem;
     margin-top: 0;
     margin-bottom: 25px;
-    color: var(secondary-color);
+    color: var(--secondary-color);
 }
 
 .quides {
