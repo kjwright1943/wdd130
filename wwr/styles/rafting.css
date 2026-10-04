@@ -9,7 +9,7 @@
 
 header {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: black;
     font: var(--heading-font);
     display: grid;
     grid-template-columns: auto 1fr;
