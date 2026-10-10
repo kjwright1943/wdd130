@@ -470,6 +470,23 @@ h1 {
     color: var(--secondary-color);
 }
 
+.trips-grid-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.trips-grid-layout {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px
+}
+
+.cta-container {
+    grid-column: 1 / span 2;
+    text-align: center;
+}
+
 .trips-container {
     background-color: #f9f9f9;
     border: 1px solid #e0e0e0;
@@ -485,6 +502,48 @@ h1 {
     display: block;
     margin: 15px auto;
     border-radius: 4px;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+table tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table th {
+    background-color: #333333;
+    color: white;
+}
+
+.cta-container {
+    background-color: #8d918d;
+    color: black;
+    padding: 40px 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--accent1);
+    color: white;
+    text-decoration: none;
+    padding: 12px 28px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #e64a19;
+    transform: translatrY(-2px);
 }
 
 footer {
