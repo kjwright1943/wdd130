@@ -528,9 +528,15 @@ table th {
     margin-top: 20px;
 }
 
+.cta-container h2 {
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
 .cta-button {
     display: inline-block;
-    background-color: var(--accent1);
+    background-color: navy;
     color: white;
     text-decoration: none;
     padding: 12px 28px;
